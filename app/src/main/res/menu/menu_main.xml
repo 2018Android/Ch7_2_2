@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/left"
+        android:icon="@drawable/leftarrow"
+        android:title="上一頁"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/right"
+        android:icon="@drawable/rightarrow"
+        android:title="下一頁"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/toF"
+        android:title="轉華氏"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/toC"
+        android:title="轉攝氏"
+        app:showAsAction="never" />
+</menu>
