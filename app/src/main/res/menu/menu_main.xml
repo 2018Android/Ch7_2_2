@@ -20,4 +20,14 @@
         android:id="@+id/toC"
         android:title="轉攝氏"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/subMenu"
+        android:title="子選單"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/subItem1" android:title="子選項1"></item>
+            <item android:id="@+id/subItem2" android:title="子選項2"></item>
+        </menu>
+    </item>
 </menu>
